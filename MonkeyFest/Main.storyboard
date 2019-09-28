@@ -56,6 +56,14 @@
                                 </connections>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5755" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="507" width="414" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="UIButton2157_TouchUpInside:" destination="5757" id="5756" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <navigationItem title="Title" id="1070" key="navigationItem"/>
@@ -80,11 +88,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1737" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Name">
-                                <rect key="frame" x="0.0" y="177" width="414" height="30"/>
+                                <rect key="frame" x="-6" y="376" width="414" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="4396" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="monkey.png">
+                                <rect key="frame" x="81" y="245" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                     </view>
                     <connections>
@@ -108,7 +120,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1021" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-538" y="-8"/>
+            <point key="canvasLocation" x="-551" y="-3"/>
         </scene>
         <scene sceneID="1448">
             <objects>
@@ -202,4 +214,7 @@
             <point key="canvasLocation" x="1064" y="860"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="monkey.png" width="501" height="456"/>
+    </resources>
 </document>

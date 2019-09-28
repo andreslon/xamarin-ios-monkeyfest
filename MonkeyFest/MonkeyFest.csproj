@@ -150,5 +150,8 @@
         <Compile Include="Models\MyTableViewSource.cs" />
         <Compile Include="FirebaseRepository.cs" />
     </ItemGroup>
+    <ItemGroup>
+      <BundleResource Include="Resources\monkey.png" />
+    </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
